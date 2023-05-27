@@ -121,9 +121,12 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGPT-殇陌科技</div>
         <div className={styles["sidebar-sub-title"]}>
-          ShangMo Net-ChatGPT Chat Bot<br>
-          站点出现问题请联系QQ:3079201190<br>
-          官方公众号：殇陌网络科技<br>
+          官方公众号:殇陌网络科技
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
+          有问题请联系QQ:3079201190
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
           Copyright © 2023 殇陌科技 All right reserved.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
