@@ -121,6 +121,9 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGPT-殇陌科技</div>
         <div className={styles["sidebar-sub-title"]}>
+          访问密码请在微信公众号发送:访问密码 以领取
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
           官方公众号:殇陌网络科技
         </div>
         <div className={styles["sidebar-sub-title"]}>
